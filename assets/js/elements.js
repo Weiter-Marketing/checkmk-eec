@@ -11,7 +11,7 @@ import {interactiveElements} from './modules/interactiveElements.js';
 
     sections.forEach((section) => {
        let sectionObj = structureSectionObject(section);
-       tagElementWithDataAttributes(section, sectionObj)
+       tagElementWithDataAttributes(section, sectionObj);
     });
 
     buttons.forEach((button) => {
