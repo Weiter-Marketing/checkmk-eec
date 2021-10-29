@@ -1,8 +1,10 @@
-const path = require('oath');
+const path = require('path');
 
 module.exports = {
     mode: 'development',
     entry: './src/index.js',
-    output:path.resolve(__direname, 'dist'),
-    filename:'[name].js'
+    output:{
+        path:path.resolve(__dirname, 'dist'),
+        filename:'[name].js'
+    },
 }
