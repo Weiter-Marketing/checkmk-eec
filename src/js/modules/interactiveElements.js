@@ -5,9 +5,15 @@ export const interactiveElements = ((a) => {
     let faqs = document.querySelectorAll('.accordion__item');
     let slider = document.querySelectorAll('.image-slider__navigation*');
 
-    arr.push(step);
-    arr.push(faqs);
-    arr.push(slider);
+    if(step) {
+        arr.push(step);
+    }
+    if(faqs) {
+        arr.push(faqs);
+    }
+    if(slider) {
+        arr.push(slider);
+    }
 
     return arr;
 });

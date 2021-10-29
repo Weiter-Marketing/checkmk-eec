@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"interactiveElements\": () => (/* binding */ interactiveElements)\n/* harmony export */ });\nconst interactiveElements = ((a) => {\n    let arr = [];\n\n    let step = document.querySelector('.step-navigation-item.active span').innerText;\n    let faqs = document.querySelectorAll('.accordion__item');\n    let slider = document.querySelectorAll('.image-slider__navigation*');\n\n    arr.push(step);\n    arr.push(faqs);\n    arr.push(slider);\n\n    return arr;\n});\n\n//# sourceURL=webpack://checkmk/./src/js/modules/interactiveElements.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"interactiveElements\": () => (/* binding */ interactiveElements)\n/* harmony export */ });\nconst interactiveElements = ((a) => {\n    let arr = [];\n\n    let step = document.querySelector('.step-navigation-item.active span').innerText;\n    let faqs = document.querySelectorAll('.accordion__item');\n    let slider = document.querySelectorAll('.image-slider__navigation*');\n\n    if(step) {\n        arr.push(step);\n    }\n    if(faqs) {\n        arr.push(faqs);\n    }\n    if(slider) {\n        arr.push(slider);\n    }\n\n    return arr;\n});\n\n//# sourceURL=webpack://checkmk/./src/js/modules/interactiveElements.js?");
 
 /***/ }),
 
