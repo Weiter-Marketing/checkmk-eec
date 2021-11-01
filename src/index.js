@@ -36,11 +36,11 @@ if(anchors.length) {
         tagElementWithDataAttributes(anchor, anchorObj);
     });
 };
-
-if(interactiveElements.length) {
-    interactiveElements.forEach((anchor) => {
-        debugger;
-        let anchorObj = structureLinkObject(anchor);
-        tagElementWithDataAttributes(anchor, anchorObj);
-    });
-};
+//
+// if(interactiveElements.length) {
+//     interactiveElements.forEach((anchor) => {
+//         debugger;
+//         let anchorObj = structureLinkObject(anchor);
+//         tagElementWithDataAttributes(anchor, anchorObj);
+//     });
+// };
